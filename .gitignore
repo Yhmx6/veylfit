@@ -23,6 +23,7 @@ exports/
 backups/
 *.fitlogic
 *.veylfit
+*.veylfit-person
 *.zip
 *.glb
 *.gltf
