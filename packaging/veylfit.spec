@@ -6,6 +6,7 @@ src=root/'src'/'veylfit'
 mp_data,mp_bins,mp_hidden=collect_all('mediapipe')
 datas=mp_data+[(str(src/folder),folder) for folder in ('templates','face_assets','pose_assets','shape_assets')]
 datas += [(str(root/'THIRD_PARTY_NOTICES.md'),'.'),(str(root/'licenses'),'licenses')]
+datas += [(str(root/name),'.') for name in ('LICENSE','LICENSE.zh-CN.md','LICENSE-SCOPE.md','COMMERCIAL.md')]
 for package in ('mediapipe','numpy','pillow','pyinstaller'):
     datas+=copy_metadata(package)
 a=Analysis([str(src/'main.py')],pathex=[str(src)],binaries=mp_bins,datas=datas,

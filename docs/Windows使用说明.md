@@ -1,6 +1,6 @@
-# 映衣间 Windows 测试版 0.2.0
+# 映衣间 Windows 测试版 0.2.1
 
-运行 Veylfit-Setup-0.2.0-windows-x64.exe，为当前用户安装。不需要预装 Python、MakeHuman 或配置生图 API。开始菜单可打开映衣间，安装时可选择桌面快捷方式。安装器尚未签名，Windows 可能提示未知发布者；只使用仓库 Release 的文件并核对 SHA256。
+运行 Veylfit-Setup-0.2.1-windows-x64.exe，为当前用户安装。不需要预装 Python、MakeHuman 或配置生图 API。开始菜单可打开映衣间，安装时可选择桌面快捷方式。安装器尚未签名，Windows 可能提示未知发布者；只使用仓库 Release 的文件并核对 SHA256。
 
 ## 人物建档
 
@@ -42,3 +42,10 @@
 ## 开发验证
 
 `Veylfit.exe --self-test <报告.json>` 在本机用合成图片测试模型加载、六项尺寸、人物档案、试衣包和回存。不会调用生图服务，不验证真实面部相似度。它只在显式运行时执行。
+
+
+## 许可说明
+
+从v0.2.1起采用PolyForm Noncommercial 1.0.0。安装时会展示许可正文；安装目录根部保留LICENSE、LICENSE.zh-CN.md、LICENSE-SCOPE.md、COMMERCIAL.md和THIRD_PARTY_NOTICES.md。非商业使用、修改和分享依标准条款允许，超出许可用途的商用需另行书面授权；标准的特定机构例外继续适用。
+
+第三方组件和资源仍按其原许可，原文在安装目录licenses及各资源目录内。用户照片和档案不因此授权给项目方。旧v0.2.0安装包未被替换。

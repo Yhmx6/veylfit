@@ -1,0 +1,20 @@
+{
+  "old_install": 0,
+  "upgrade_020_to_021": 0,
+  "installed_self_test": 0,
+  "uninstall": 0,
+  "license_files_exact_match": [
+    "LICENSE",
+    "LICENSE.zh-CN.md",
+    "LICENSE-SCOPE.md",
+    "COMMERCIAL.md",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md"
+  ],
+  "third_party_license_files": 94,
+  "user_file_preserved": true,
+  "old_installer_unchanged": true,
+  "scope": "Current Windows machine, isolated Python environment; not another clean machine",
+  "sha256": "7e72b9bc699e5d51876ed1cc4ba5d60062ff8821b04e1f026442873aaca06e7c",
+  "bytes": 87857765
+}

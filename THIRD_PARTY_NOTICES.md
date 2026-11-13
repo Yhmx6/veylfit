@@ -12,4 +12,6 @@
 
 模型资产校验值见 `packaging/assets-manifest.json`。应用默认不自动上传图片，也不在客户端嵌入共享生图服务密钥。
 
-本项目源代码已可公开查看；当前没有另行授予开源再分发许可证。公开仓库不改变第三方组件的许可，也不意味着已为项目代码选定 MIT/GPL 等许可证。
+本项目自v0.2.1起，对有权许可的原创代码、构建脚本、测试和文档采用[PolyForm Noncommercial 1.0.0](LICENSE)，详见[适用范围](LICENSE-SCOPE.md)。该选择不改变上列第三方组件及资产的原有许可，不把CC0或Apache-2.0资源限制为非商业使用。
+
+安装目录根部包含项目许可和本说明；原始第三方许可在licenses目录。通用模型及素材在_internal/templates、_internal/face_assets、_internal/pose_assets、_internal/shape_assets，对应本仓库src/veylfit下同名目录。
