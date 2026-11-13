@@ -42,3 +42,15 @@ backups/
 *.mp4
 .DS_Store
 Thumbs.db
+build/
+dist/
+release/
+*.exe
+*.log
+*.spec.bak
+# Explicitly reviewed generic assets; never add personal templates here.
+!src/veylfit/templates/male.glb
+!src/veylfit/templates/female.glb
+!src/veylfit/shape_assets/heavy-atlas-v1.png
+!src/veylfit/shape_assets/normal-atlas-v1.png
+!src/veylfit/shape_assets/lean-atlas-v1.png

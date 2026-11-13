@@ -1,0 +1,61 @@
+{
+  "self_test": "synthetic engineering checks, not real likeness approval",
+  "network_used": false,
+  "pose_and_face_runtime": "passed",
+  "profile_handoff": "passed",
+  "manual_package_and_result_roundtrip": "passed",
+  "approval_invalidation": "passed",
+  "tk_modules": "passed",
+  "synthetic_measurement_rows": {
+    "chest": {
+      "input_cm": 102.0,
+      "model_cm": 102.0001,
+      "difference_cm": 0.0001,
+      "applied": true,
+      "source": "user_entered_unverified",
+      "section_height_cm": 126.0093
+    },
+    "waist": {
+      "input_cm": 90.0,
+      "model_cm": 90.0012,
+      "difference_cm": 0.0012,
+      "applied": true,
+      "source": "user_entered_unverified",
+      "section_height_cm": 114.3923
+    },
+    "abdomen": {
+      "input_cm": 96.0,
+      "model_cm": 96.006,
+      "difference_cm": 0.006,
+      "applied": true,
+      "source": "user_entered_unverified",
+      "section_height_cm": 108.9468
+    },
+    "hips": {
+      "input_cm": 104.0,
+      "model_cm": 104.0,
+      "difference_cm": 0.0,
+      "applied": true,
+      "source": "user_entered_unverified",
+      "section_height_cm": 89.3431
+    },
+    "shoulder_width": {
+      "input_cm": 43.0,
+      "model_cm": 43.0,
+      "difference_cm": 0.0,
+      "applied": true,
+      "source": "user_entered_unverified",
+      "section_height_cm": null
+    },
+    "inseam": {
+      "input_cm": 81.0,
+      "model_cm": 81.0,
+      "difference_cm": 0.0,
+      "applied": true,
+      "source": "user_entered_unverified",
+      "section_height_cm": null
+    }
+  },
+  "height_cm": 175.0,
+  "status": "passed"
+}

@@ -1,0 +1,38 @@
+{
+  "templates/female.glb": {
+    "sha256": "9462197efaf6c223a7f865da87bb3d278ac118b9f14eac280c45dc2eb09b8e38",
+    "bytes": 1683804
+  },
+  "templates/MakeHuman-LICENSE.ASSETS.md": {
+    "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+    "bytes": 6962
+  },
+  "templates/male.glb": {
+    "sha256": "faa8111f6a93eaf3af64cc308cf4643fa0cd1ae314c31c86ff01e0abc863a815",
+    "bytes": 1684084
+  },
+  "face_assets/blaze_face_short_range.tflite": {
+    "sha256": "b4578f35940bf5a1a655214a1cce5cab13eba73c1297cd78e1a04c2380b0152f",
+    "bytes": 229746
+  },
+  "face_assets/MediaPipe-LICENSE.txt": {
+    "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8",
+    "bytes": 12331
+  },
+  "shape_assets/heavy-atlas-v1.png": {
+    "sha256": "58ded91513816d576db229f871d69ee96f095ec164686bf7265f754116d93557",
+    "bytes": 1861912
+  },
+  "shape_assets/lean-atlas-v1.png": {
+    "sha256": "ebba253ffe7f9cc462b3eee1f22a99afe7137488613ad04d67ba7c683ca70860",
+    "bytes": 1811407
+  },
+  "shape_assets/normal-atlas-v1.png": {
+    "sha256": "1c5fc14bd3a8a84544ac18add875211136b2d8fda51a6a74969281d38f534d0d",
+    "bytes": 1690354
+  },
+  "pose_assets/pose.task": {
+    "sha256": "4eaa5eb7a98365221087693fcc286334cf0858e2eb6e15b506aa4a7ecdcec4ad",
+    "bytes": 9398198
+  }
+}
